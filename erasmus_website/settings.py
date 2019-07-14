@@ -27,7 +27,7 @@ SECRET_KEY = 'yxoh)x)nz!v3i9pc*4(za=qbm()*w4x0imv2@tx=5l32_^hs0q'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['portugueseteamerasmusplus.pythonanywhere.com']
 
 
 # Application definition
