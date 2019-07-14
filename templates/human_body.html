@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% load static %}
+{% block form %}
+<div class="container">
+  <div class="content-section-heading">
+    <h3 class="text-secondary mb-0">For this project we wrote articles concerning a themes interesting to us wabout the human body and formed a magasine</h3>
+    <h2 class="mb-5">Human Body</h2>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-12 col-md-1 mb-5 mb-lg-0">
+      <embed width="1060" height="515" scr="{% static "ProdutoFinal.pdf" %}">
+    </div>
+  </div>
+  <p></p>
+
+    <a class="btn btn-dark btn-xl js-scroll-trigger" href="{% url 'home_page' %}">Back To Home Page</a>
+
+</div>
+
+{% endblock %}
